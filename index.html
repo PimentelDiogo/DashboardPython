@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Suporte WorkSpaceMobile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2e6c80;
+        }
+        h2 {
+            color: #2e6c80;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        pre {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        .screenshot {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .language-section {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dashboard Suporte WorkSpaceMobile</h1>
+    
+    <div class="language-section">
+        <h2>Português</h2>
+        <p>Um dashboard interativo para visualização de dados de tickets de suporte, construído com Streamlit e Plotly.</p>
+        
+        <h3>Requisitos</h3>
+        <p>Para executar este dashboard, você precisará das seguintes bibliotecas Python:</p>
+        <ul>
+            <li><strong>pandas:</strong> Para manipulação e análise de dados</li>
+            <li><strong>streamlit:</strong> Para criação da interface web interativa</li>
+            <li><strong>plotly:</strong> Para visualização de dados com gráficos interativos</li>
+            <li><strong>openpyxl:</strong> Para leitura de arquivos Excel (.xlsx)</li>
+        </ul>
+        
+        <h3>Instalação</h3>
+        <pre>pip install pandas streamlit plotly openpyxl</pre>
+        
+        <h3>Como Executar</h3>
+        <ol>
+            <li>Clone este repositório</li>
+            <li>Ative o ambiente virtual (se estiver usando):
+                <ul>
+                    <li>Linux/macOS: <code>source .venv/bin/activate</code></li>
+                    <li>Windows: <code>venv\Scripts\activate</code></li>
+                </ul>
+            </li>
+            <li>Execute o dashboard:
+                <pre>cd app
+streamlit run app.py</pre>
+            </li>
+        </ol>
+        
+        <h3>Visualizações Disponíveis</h3>
+        <p>O dashboard gera os seguintes tipos de gráficos:</p>
+        <ol>
+            <li><strong>Gráfico de Barras:</strong>
+                <ul>
+                    <li>Tickets por Analista</li>
+                    <li>Tickets por Cliente</li>
+                    <li>Tickets por Fila</li>
+                </ul>
+            </li>
+            <li><strong>Gráfico de Pizza:</strong>
+                <ul>
+                    <li>Distribuição de Tickets por Estado</li>
+                </ul>
+            </li>
+            <li><strong>Tabela de Dados:</strong>
+                <ul>
+                    <li>Resumo dos dados carregados</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+    
+    <div class="language-section">
+        <h2>English</h2>
+        <p>An interactive dashboard for support ticket data visualization, built with Streamlit and Plotly.</p>
+        
+        <h3>Requirements</h3>
+        <p>To run this dashboard, you'll need the following Python libraries:</p>
+        <ul>
+            <li><strong>pandas:</strong> For data manipulation and analysis</li>
+            <li><strong>streamlit:</strong> For creating interactive web interface</li>
+            <li><strong>plotly:</strong> For interactive data visualization</li>
+            <li><strong>openpyxl:</strong> For reading Excel (.xlsx) files</li>
+        </ul>
+        
+        <h3>Installation</h3>
+        <pre>pip install pandas streamlit plotly openpyxl</pre>
+        
+        <h3>How to Run</h3>
+        <ol>
+            <li>Clone this repository</li>
+            <li>Activate the virtual environment (if using one):
+                <ul>
+                    <li>Linux/macOS: <code>source .venv/bin/activate</code></li>
+                    <li>Windows: <code>venv\Scripts\activate</code></li>
+                </ul>
+            </li>
+            <li>Run the dashboard:
+                <pre>cd app
+streamlit run app.py</pre>
+            </li>
+        </ol>
+        
+        <h3>Available Visualizations</h3>
+        <p>The dashboard generates the following types of charts:</p>
+        <ol>
+            <li><strong>Bar Charts:</strong>
+                <ul>
+                    <li>Tickets by Analyst</li>
+                    <li>Tickets by Client</li>
+                    <li>Tickets by Queue</li>
+                </ul>
+            </li>
+            <li><strong>Pie Chart:</strong>
+                <ul>
+                    <li>Ticket Distribution by Status</li>
+                </ul>
+            </li>
+            <li><strong>Data Table:</strong>
+                <ul>
+                    <li>Summary of loaded data</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+    
+    <footer>
+        <p>Acesse o <a href="https://github.com/pimenteldiogo/DashboardPython">repositório no GitHub</a> para mais informações.</p>
+    </footer>
+</body>
+</html>
